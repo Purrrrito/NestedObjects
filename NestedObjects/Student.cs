@@ -21,8 +21,18 @@
         public string SchoolEmail { get; set; }
 
 		/// <summary>
-		/// Student's phone number
+		/// Student's date of birth
 		/// </summary>
+        public DateOnly DateOfBirth { get; set; }
+
+        /// <summary>
+        /// Student's preferred phone number
+        /// </summary>
         public string PhoneNumber { get; set; }
+
+		/// <summary>
+		/// The advisor who is assing to the student
+		/// </summary>
+		public Advisor Advisor { get; set; }
     }
 }
