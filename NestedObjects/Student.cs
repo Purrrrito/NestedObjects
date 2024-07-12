@@ -33,6 +33,6 @@
 		/// <summary>
 		/// The advisor who is assing to the student
 		/// </summary>
-		public Advisor Advisor { get; set; }
+		public Advisor AssignedAdvisor { get; set; }
     }
 }

@@ -25,9 +25,5 @@ namespace NestedObjects
 		/// Building and room number of the office
 		/// </summary>
         public string OfficeLocation { get; set; }
-
-        public string PhoneNumber { get; set; }
-
-        public Advisor AssignedAdvisor { get; set; }
     }
 }
